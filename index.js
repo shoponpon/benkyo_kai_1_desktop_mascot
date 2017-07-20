@@ -24,7 +24,7 @@ function createWindow() {
         slashes: true
     }));
     
-    mainWindow.openDevTools({ mode: "detach" });
+//    mainWindow.openDevTools({ mode: "detach" });
 
     mainWindow.on('closed', () => {
         win = null
